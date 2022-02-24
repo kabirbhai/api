@@ -44,9 +44,12 @@ const displayCountryDetiles = country => {
     console.log(country)
     const countryDtl = document.getElementById('country-dtl')
     countryDtl.innerHTML = `
+    <div id="main-container">
+    <h1>Country detiles</h1>
     <h4>${country.name.common}</h4>
     <p>${country.population}</p>
-    <img width"100px" src="${country.flags.svg}">
+    <img id="img" src="${country.flags.svg}">
+    </div>
     
     `;
 }

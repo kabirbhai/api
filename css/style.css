@@ -16,3 +16,9 @@ button{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+#img{
+    width: 200px;
+}
+#main-container{
+    text-align: center;
+}
